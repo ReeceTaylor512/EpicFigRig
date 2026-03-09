@@ -35,8 +35,8 @@ from .operators import classes as operator_classes
 
 
 bl_info = {
-    "name":        "The EpicFigRig - JabLab Version - Dev Version",
-    "author":      "Reecey Bricks :3, JabLab, IX Productions, Citrine's Animations, Jambo, "
+    "name":        "The EpicFigRig 2.0",
+    "author":      "Reecey Bricks :), JabLab, IX Productions, Citrine's Animations, Jambo, "
                    "Owenator Productions and Golden Ninja Ben",
     "version":     (2, 0, 0),
     "blender":     (4, 0, 0),

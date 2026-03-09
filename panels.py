@@ -57,7 +57,7 @@ class EpicFigRigPanel(bpy.types.Panel):
     bl_idname      = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig V2' 
+    bl_category    = 'EpicFigRig 2.0' 
 
     def draw(self, context):
         layout = self.layout
@@ -104,7 +104,7 @@ class EpicButtons(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
 
     @classmethod
     def poll(cls, context):
@@ -146,7 +146,7 @@ class ArmMenu(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod
@@ -227,7 +227,7 @@ class LegMenu(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod
@@ -287,7 +287,7 @@ class SmearSlider(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod
@@ -310,7 +310,7 @@ class BoneAdjust(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod
@@ -334,7 +334,7 @@ class BoneVis(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod
@@ -359,7 +359,7 @@ class BoneShapes(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod
@@ -380,7 +380,7 @@ class Props(bpy.types.Panel):
     bl_parent_id   = "EPIC_FIGRIG_PT_PANEL"  # too generic and can conflict
     bl_space_type  = 'VIEW_3D'
     bl_region_type = 'UI'
-    bl_category    = 'EpicFigRig'
+    bl_category    = 'EpicFigRig 2.0'
     bl_options     = {'DEFAULT_CLOSED'}
 
     @classmethod

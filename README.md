@@ -1,4 +1,4 @@
-# EpicFigRig
+# EpicFigRig 2.0
 
 A Blender addon for automatically rigging Mecabricks LEGO minifigure exports.
 

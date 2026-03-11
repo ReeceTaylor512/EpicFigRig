@@ -86,7 +86,9 @@ To add support for a new brick ID, see the [Developer Reference](EpicFigRig_Deve
 
 ## Credits
 
-Created by **Reecey Bricks**, **JabLab**, **IX Productions**, **Citrine's Animations**, **Jambo**, **Owenator Productions**, and **Golden Ninja Ben**.
+Originally Created by , **IX Productions**, **Citrine's Animations**, **Jambo**, **Owenator Productions**, and **Golden Ninja Ben**.
+Based on the JabLab branch by... well... **JabLab**. 
+2.0 Created by **Reecey Bricks**
 
 ---
 
